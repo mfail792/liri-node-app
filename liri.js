@@ -41,6 +41,8 @@ function switchEffort() {
     }
 };
 
+
+//function for axios call to display artist information to console (name of venue, venue loc and date of event)
 function concertIt(artist) {
     if (userEntry === 'concert-this') {
         var artist = "";
@@ -70,6 +72,7 @@ function concertIt(artist) {
     });
 }
 
+//spotify function to take user's song request and pull more info on song and offer preview if available
 function theSong(passIN) {
 
     var searchSong;
@@ -98,8 +101,17 @@ function theSong(passIN) {
 };
 
 
-//movie function 
+//movie function calling out to OMDB to return information from the database
 function filmData(movie) {
+
+    var movie;
+    if (passIN === undefined) {
+        movie = "Mr. Nobody";
+        console.log('If you have not seen it yet, check it out on Netflix! http://www.imdb.com/title/tt0485947/');
+    } else {
+        movie = passIN;
+    };
+
     axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
         function (response) {
             //console.log(response.data);
@@ -114,9 +126,7 @@ function filmData(movie) {
                 console.log("Actors: " + response.data.Actors);
                 console.log("RottenTomatoes: " + response.data.tomatoRating);
             }
-            else {
-                filmData("Mr. Nobody");
-            }
+
         }
         // if response is empty call the api again with the "default" movie 
     ).catch(function (error) {
