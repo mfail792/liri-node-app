@@ -13,7 +13,7 @@ node liri.js concert-this 'input artist here'
 
 node liri.js spotify-this-song 'input song here'
 
-node liri.js movie-this 'input movie here'
+node liri.js movie-this 'input movie here'  *Upon no input, Mr. Nobody information will appear along with a link*
 
 node liri.js do-what-it-says
 
