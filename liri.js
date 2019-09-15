@@ -13,7 +13,7 @@ var spotify = new Spotify(keys.spotify);
 var userEntry = process.argv[2];
 var passIN = process.argv[3];
 
-
+//tells program what method to run for each command entered
 function switchEffort() {
 
     switch (userEntry) {
