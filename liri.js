@@ -93,3 +93,21 @@ function theSong(passIN) {
     } else {
         searchSong = passIN;
     }
+    spotify.search({
+        type: 'track',
+        query: searchSong
+    }, function (error, data) {
+        if (error) {
+            logIt('Error occurred: ' + error);
+            return;
+        } else {
+            logIt("\n---------------------------------------------------\n");
+            logIt("Artist: " + data.tracks.items[0].artists[0].name);
+            logIt("Song: " + data.tracks.items[0].name);
+            logIt("Preview: " + data.tracks.items[3].preview_url);
+            logIt("Album: " + data.tracks.items[0].album.name);
+            logIt("\n---------------------------------------------------\n");
+
+        }
+    });
+};
