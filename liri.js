@@ -53,3 +53,6 @@ function concertIt(passIN) {
         movieID = passIN;
     }
 
+    var queryURL = "https://rest.bandsintown.com/artists/" + movieID + "/events?app_id=codecademy";
+
+    
