@@ -67,4 +67,18 @@ function concertIt(passIN) {
                 var day = dTime.substring(8, 10);
                 var dateForm = month + "/" + day + "/" + year;
 
-                
+                logIt("\n---------------------------------------------------\n");
+
+                logIt("Date: " + dateForm);
+                logIt("Name: " + JS[i].venue.name);
+                logIt("City: " + JS[i].venue.city);
+                if (JS[i].venue.region !== "") {
+                    logIt("Country: " + JS[i].venue.region);
+                }
+                logIt("Country: " + JS[i].venue.country);
+                logIt("\n---------------------------------------------------\n");
+
+            }
+        }
+    });
+}
