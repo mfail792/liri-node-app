@@ -140,3 +140,14 @@ function filmData(passIN) {
         }
     });
 };
+
+//adding logIt function to append information
+function logIt(dataToLog) {
+
+    console.log(dataToLog);
+
+    fs.appendFile('log.txt', dataToLog + '\n', function (err) {
+
+        if (err) return logIt('Error logging data to file: ' + err);
+    });
+}
