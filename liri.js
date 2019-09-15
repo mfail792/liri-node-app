@@ -12,5 +12,15 @@ var userEntry = process.argv[2];
 var passIN = process.argv[3];
 
 
+function switchEffort() {
 
+    switch (userEntry) {
+
+        case 'concert-this':
+            concertIt(passIN);
+            break;
+
+        case 'spotify-this-song':
+            spotSong(passIN);
+            break;
 
