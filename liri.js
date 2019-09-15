@@ -111,3 +111,15 @@ function theSong(passIN) {
         }
     });
 };
+
+function filmData(passIN) {
+
+
+    var locateMovie;
+    if (passIN === undefined) {
+        locateMovie = "Mr. Nobody";
+    } else {
+        locateMovie = passIN;
+    };
+
+    var queryUrl = "http://www.omdbapi.com/?t=" + locateMovie + "&y=&plot=short&apikey=trilogy";
