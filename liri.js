@@ -2,8 +2,10 @@ require("dotenv").config();
 
 var fs = require("fs");
 var keys = require("./keys.js");
-var request = require('request');
 var Spotify = require('node-spotify-api');
+var axios = require("axios");
+var moment = require('moment');
+
 
 var spotify = new Spotify(keys.spotify);
 
@@ -39,53 +41,36 @@ function switchEffort() {
     }
 };
 
-//creating concertIt function
-function concertIt(passIN) {
-
+function concertIt(artist) {
     if (userEntry === 'concert-this') {
-        var movieID = "";
+        var artist = "";
         for (var i = 3; i < process.argv.length; i++) {
-            movieID += process.argv[i];
+            artist += process.argv[i];
         }
-        console.log(movieID);
+        console.log(artist);
     }
     else {
-        movieID = passIN;
+        artist = passIN;
     }
-
-    var queryURL = "https://rest.bandsintown.com/artists/" + movieID + "/events?app_id=codecademy";
-
-    request(queryURL, function (error, response, body) {
-
-        if (!error & response.statusCode === 200) {
-
-            var JS = JSON.parse(body);
-            for (i = 0; i < JS.length; i++) {
-                var dTime = JS[i].datetime;
-                var month = dTime.substring(5, 7);
-                var year = dTime.substring(0, 4);
-                var day = dTime.substring(8, 10);
-                var dateForm = month + "/" + day + "/" + year;
-
-                logIt("\n---------------------------------------------------\n");
-
-                logIt("Date: " + dateForm);
-                logIt("Name: " + JS[i].venue.name);
-                logIt("City: " + JS[i].venue.city);
-                if (JS[i].venue.region !== "") {
-                    logIt("Country: " + JS[i].venue.region);
-                }
-                logIt("Country: " + JS[i].venue.country);
-                logIt("\n---------------------------------------------------\n");
-
+    var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
+    axios.get(queryURL).then(
+        function (response) {
+            if (response.data[0].venue != undefined) {
+                console.log("Event Veunue: " + response.data[0].venue.name);
+                console.log("Event Location: " + response.data[0].venue.city);
+                var eventDateTime = moment(response.data[0].datetime);
+                console.log("Event Date & Time: " + eventDateTime.format("dddd, MMMM Do YYYY"));
+            }
+            else {
+                console.log("No results found.");
             }
         }
+    ).catch(function (error) {
+        console.log(error);
     });
 }
 
-
 function theSong(passIN) {
-
 
     var searchSong;
     if (passIN === undefined) {
@@ -112,34 +97,33 @@ function theSong(passIN) {
     });
 };
 
-function filmData(passIN) {
 
-
-    var locateMovie;
-    if (passIN === undefined) {
-        locateMovie = "Mr. Nobody";
-    } else {
-        locateMovie = passIN;
-    };
-
-    var queryUrl = "http://www.omdbapi.com/?t=" + locateMovie + "&y=&plot=short&apikey=trilogy";
-
-    request(queryUrl, function (err, res, body) {
-        var bodyOf = JSON.parse(body);
-        if (!err && res.statusCode === 200) {
-            logIt("\n---------------------------------------------------\n");
-            logIt("Title: " + bodyOf.Title);
-            logIt("Release Year: " + bodyOf.Year);
-            logIt("IMDB Rating: " + bodyOf.imdbRating);
-            logIt("Rotten Tomatoes Rating: " + bodyOf.Ratings[1].Value);
-            logIt("Country: " + bodyOf.Country);
-            logIt("Language: " + bodyOf.Language);
-            logIt("Plot: " + bodyOf.Plot);
-            logIt("Actors: " + bodyOf.Actors);
-            logIt("\n---------------------------------------------------\n");
+//movie function 
+function filmData(movie) {
+    axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
+        function (response) {
+            //console.log(response.data);
+            if (response.data.Title != undefined) {
+                console.log("Title: " + response.data.Title);
+                console.log("Year: " + response.data.Year);
+                console.log("imdbRating:: " + response.data.imdbRating);
+                console.log("Title: " + response.data.Title);
+                console.log("Country:: " + response.data.Country);
+                console.log("Language:: " + response.data.Language);
+                console.log("Plot: " + response.data.Plot);
+                console.log("Actors: " + response.data.Actors);
+                console.log("RottenTomatoes: " + response.data.tomatoRating);
+            }
+            else {
+                filmData("Mr. Nobody");
+            }
         }
+        // if response is empty call the api again with the "default" movie 
+    ).catch(function (error) {
+        console.log(error);
+        console.log("No Results found. ");
     });
-};
+}
 
 //adding logIt function to append information
 function logIt(dataToLog) {
@@ -156,6 +140,7 @@ function logIt(dataToLog) {
 //taking info from the random.txt file, placing into an array, splitting it and outputting to console
 function doWhat() {
     fs.readFile('random.txt', "utf8", function (error, data) {
+
 
         if (error) {
             return logIt(error);
@@ -190,4 +175,6 @@ function doWhat() {
 
 };
 
+
 switchEffort();
+

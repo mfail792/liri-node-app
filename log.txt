@@ -1059,3 +1059,73 @@ Album: The Hits--Chapter One
 
 ---------------------------------------------------
 
+
+---------------------------------------------------
+
+Artist: Disturbed
+Album: The Sickness
+Preview: https://p.scdn.co/mp3-preview/a9c1b050f0456fc1efddaed0fc9fc9268adb1602?cid=5b9948160bdd467b891479d365a31ba3
+Song: Down with the Sickness
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Eagles
+Song: Take It Easy - 2013 Remaster
+Preview: https://p.scdn.co/mp3-preview/1dde876336ceab70ad0bbf832a3feff49783c3ea?cid=5b9948160bdd467b891479d365a31ba3
+Album: Eagles (2013 Remaster)
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Backstreet Boys
+Song: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=5b9948160bdd467b891479d365a31ba3
+Album: The Hits--Chapter One
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Lizzo
+Album: Cuz I Love You (Deluxe)
+Song: Truth Hurts
+Preview: https://p.scdn.co/mp3-preview/12cb9f35816c7cf8773a8d9acaffc07e2e31cc6e?cid=5b9948160bdd467b891479d365a31ba3
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Lizzo
+Song: Truth Hurts
+Album: Cuz I Love You (Deluxe)
+
+---------------------------------------------------
+
+Preview: null
+
+---------------------------------------------------
+
+Artist: Jonas Brothers
+Preview: https://p.scdn.co/mp3-preview/43a375df7c02e505b9df7137845981ec0816149f?cid=5b9948160bdd467b891479d365a31ba3
+Album: Sucker
+Song: Sucker
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Backstreet Boys
+Song: I Want It That Way
+
+---------------------------------------------------
+
+Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=5b9948160bdd467b891479d365a31ba3
+Album: The Hits--Chapter One
