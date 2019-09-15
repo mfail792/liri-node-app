@@ -153,40 +153,23 @@ function logIt(dataToLog) {
 }
 
 
+//taking info from the random.txt file, putting it into an array, splitting it up and outputting to console 
 function doWhat() {
     fs.readFile('random.txt', "utf8", function (error, data) {
+        {
+            if (error) { return console.log(error); }
 
-        if (error) {
-            return logIt(error);
-        }
+            let dataArr = data.split(",");
 
-        var dataArr = data.split(",");
+            userEntry = dataArr[9];
+            passIN = dataArr[1];
 
-        if (dataArr[0] === "spotify-this-song") {
-            var songcheck = dataArr[1].trim().slice(1, -1);
-            theSong(songcheck);
-        }
-        else if (dataArr[0] === "concert-this") {
-            if (dataArr[1].charAt(1) === "'") {
-                var dLength = dataArr[1].length - 1;
-                var data = dataArr[1].substring(2, dLength);
-                console.log(data);
-                concertIt(data);
-            }
-            else {
-                var bandName = dataArr[1].trim();
-                console.log(bandName);
-                concertIt(bandName);
-            }
+
+            switchEffort(userEntry, userQuery);
 
         }
-        else if (dataArr[0] === "movie-this") {
-            var movie_name = dataArr[1].trim().slice(1, -1);
-            filmData(movie_name);
-        }
 
-    });
+        });
+    };
+    
 
-};
-
-switchEffort();
