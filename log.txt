@@ -422,3 +422,630 @@ Country: Brazil
 
 ---------------------------------------------------
 
+
+---------------------------------------------------
+
+Date: 10/17/2019
+Name: Optus Stadium
+City: Burswood
+
+---------------------------------------------------
+
+Country: Australia
+
+---------------------------------------------------
+
+Date: 10/20/2019
+Name: Adelaide Oval
+City: North Adelaide
+
+---------------------------------------------------
+
+Country: Australia
+
+---------------------------------------------------
+
+Date: 10/22/2019
+Name: Marvel Stadium
+City: Docklands
+Country: Australia
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 10/24/2019
+Name: Marvel Stadium
+City: Docklands
+Country: Australia
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 10/26/2019
+Name: ANZ Stadium
+City: Sydney Olympic Park
+Country: Australia
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 10/29/2019
+Name: Queensland Sport And Athletics Centre (QSAC)
+City: Brisbane
+Country: Australia
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 10/31/2019
+Name: Mt Smart Stadium
+City: Auckland
+Country: New Zealand
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 11/02/2019
+Name: Mt Smart Stadium
+City: Auckland
+Country: New Zealand
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 04/15/2020
+Name: Estadio Nacional
+City: Estadio Nacional
+Country: Chile
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 04/18/2020
+Name: Argentine Polo Association
+City: Bwp
+Country: Argentina
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 04/21/2020
+Name: Arena do Grêmio
+City: Porto Alegre
+Country: Brazil
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 04/23/2020
+Name: Arena do Grêmio
+City: Porto Alegre
+Country: Brazil
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Name: Mineirão
+Date: 04/27/2020
+City: Belo Horizonte
+Country: Brazil
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Lizzo
+Preview: https://p.scdn.co/mp3-preview/a393c84f01ff692b048e5f06479b3f827dd7f5c0?cid=5b9948160bdd467b891479d365a31ba3
+Song: Truth Hurts
+
+---------------------------------------------------
+
+Album: Cuz I Love You (Deluxe)
+
+---------------------------------------------------
+
+Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=5b9948160bdd467b891479d365a31ba3
+Song: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/08/2020
+Name: Singapore Indoor Stadium
+City: Singapore
+Country: Singapore
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/11/2020
+Name: IMPACT Arena
+City: Bangkok
+Country: Thailand
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/14/2020
+Name: Mall of Asia Arena
+City: Manila
+Country: Philippines
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/17/2020
+Name: Taipei Arena
+City: Taipei
+Country: Taiwan
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/20/2020
+Name: World Expo
+City: Hong Kong
+Country: Hong Kong
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/22/2020
+Name: Jamsil Indoor Gym
+City: Jamsil
+Country: South Korea
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/25/2020
+City: Higashi-osaka
+Name: Intex
+Country: Japan
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 03/27/2020
+Name: Tokyo Messe
+City: Tokyo
+Country: Japan
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 05/24/2020
+Name: Spartak Stadium
+City: Moscow
+Country: Russia
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 05/27/2020
+Name: Suvilahti
+City: Helsinki
+Country: Finland
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 05/29/2020
+Name: Tele2 Arena
+City: Stockholm
+Country: Sweden
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 05/31/2020
+Name: Color Line Stadion
+City: Ålesund
+Country: Norway
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/03/2020
+Name: Parkbühne Wuhlheide
+City: Berlin
+Country: Germany
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/10/2020
+Name: Ippodromo San Siro
+City: Milan
+Country: Italy
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/13/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Paris
+Country: France
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/14/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Groningen
+Country: Netherlands
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/17/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Wilrijk
+Country: Belgium
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/21/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Wien
+Country: Austria
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/24/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Glasgow
+Country: United Kingdom
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/26/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: London
+Country: United Kingdom
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/27/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Huddersfield
+Country: United Kingdom
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 06/29/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy + Weezer
+City: Dublin 4
+Country: Ireland
+
+---------------------------------------------------
+
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+Date: 07/17/2020
+
+---------------------------------------------------
+
+City: Seattle
+Country: WA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 07/21/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: San Francisco
+Country: CA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 07/24/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+Country: CA
+City: San Diego
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 07/25/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Los Angeles
+Country: CA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+Date: 07/28/2020
+City: Commerce City
+Country: CO
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 07/31/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Dallas
+Country: TX
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/01/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Houston
+Country: TX
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/05/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Miami Gardens
+Country: FL
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/06/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Jacksonville
+Country: FL
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/08/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Atlanta
+Country: GA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/11/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Minneapolis
+Country: MN
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/13/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Chicago
+Country: IL
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/15/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Pittsburgh
+Country: PA
+Country: United States
+
+---------------------------------------------------
+
+Date: 08/16/2020
+
+---------------------------------------------------
+
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Hershey
+Country: PA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/19/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Detroit
+Country: MI
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/21/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Washington
+Country: DC
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/22/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: New York
+Country: NY
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/24/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Toronto
+Country: Canada
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/27/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Boston
+Country: MA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Date: 08/29/2020
+Name: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+City: Philadelphia
+Country: PA
+Country: United States
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Title: Home
+IMDB Rating: 6.6
+Release Year: 2015
+Rotten Tomatoes Rating: 50%
+Plot: An alien on the run from his own people makes friends with a girl. He tries to help her on her quest, but can be an interference.
+Country: USA
+Language: English, French
+Actors: Jim Parsons, Rihanna, Steve Martin, Jennifer Lopez
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Artist: Backstreet Boys
+Song: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=5b9948160bdd467b891479d365a31ba3
+Album: The Hits--Chapter One
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+
+Title: Die Hard 2
+Release Year: 1990
+IMDB Rating: 7.2
+Rotten Tomatoes Rating: 68%
+Country: USA
+Language: English, Spanish
+Plot: John McClane attempts to avert disaster as rogue military operatives seize control of Dulles International Airport in Washington, D.C.
+Actors: Bruce Willis, Bonnie Bedelia, William Atherton, Reginald VelJohnson
+
+---------------------------------------------------
+
