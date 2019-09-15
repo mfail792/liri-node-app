@@ -123,3 +123,20 @@ function filmData(passIN) {
     };
 
     var queryUrl = "http://www.omdbapi.com/?t=" + locateMovie + "&y=&plot=short&apikey=trilogy";
+
+    request(queryUrl, function (err, res, body) {
+        var bodyOf = JSON.parse(body);
+        if (!err && res.statusCode === 200) {
+            logIt("\n---------------------------------------------------\n");
+            logIt("Title: " + bodyOf.Title);
+            logIt("Release Year: " + bodyOf.Year);
+            logIt("IMDB Rating: " + bodyOf.imdbRating);
+            logIt("Rotten Tomatoes Rating: " + bodyOf.Ratings[1].Value);
+            logIt("Country: " + bodyOf.Country);
+            logIt("Language: " + bodyOf.Language);
+            logIt("Plot: " + bodyOf.Plot);
+            logIt("Actors: " + bodyOf.Actors);
+            logIt("\n---------------------------------------------------\n");
+        }
+    });
+};
