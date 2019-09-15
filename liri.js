@@ -39,3 +39,17 @@ function switchEffort() {
     }
 };
 
+//creating concertIt function
+function concertIt(passIN) {
+
+    if (userEntry === 'concert-this') {
+        var movieID = "";
+        for (var i = 3; i < process.argv.length; i++) {
+            movieID += process.argv[i];
+        }
+        console.log(movieName);
+    }
+    else {
+        movieID = passIN;
+    }
+
