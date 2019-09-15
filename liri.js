@@ -21,6 +21,21 @@ function switchEffort() {
             break;
 
         case 'spotify-this-song':
-            spotSong(passIN);
+            theSong(passIN);
             break;
+
+        case 'movie-this':
+            filmData(passIN);
+            break;
+
+        case 'do-what-it-says':
+            doWhat();
+            break;
+
+        default:
+            logIt("Invalid Instruction");
+            break;
+
+    }
+};
 
