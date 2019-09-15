@@ -104,6 +104,7 @@ function theSong(passIN) {
 //movie function calling out to OMDB to return information from the database
 function filmData(movie) {
 
+    //if nothing is entered in search, return Mr. Nobody information
     var movie;
     if (passIN === undefined) {
         movie = "Mr. Nobody";
