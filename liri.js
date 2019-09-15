@@ -82,3 +82,14 @@ function concertIt(passIN) {
         }
     });
 }
+
+
+function theSong(passIN) {
+
+
+    var searchSong;
+    if (passIN === undefined) {
+        searchSong = "The Sign ace of base";
+    } else {
+        searchSong = passIN;
+    }
