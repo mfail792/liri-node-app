@@ -151,3 +151,11 @@ function logIt(dataToLog) {
         if (err) return logIt('Error logging data to file: ' + err);
     });
 }
+
+
+function doWhat() {
+    fs.readFile('random.txt', "utf8", function (error, data) {
+
+        if (error) {
+            return logIt(error);
+        }
