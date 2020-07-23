@@ -1,6 +1,6 @@
 # liri-node-app
 
-This CLI node application is designed to provide the user with the ability to search databases for relevant information based on their query.  
+This node application uses a command line interface to provide the user with the ability to search databases for relevant information based on their query.  
 
 Through simple commands, the user is able to draw relevant data on their favorite artists, such as song information or even when they will be performing next and where.  The application also allows users to type in their favorite films (or films they are considering watching) and receive important feedback on them.
 
